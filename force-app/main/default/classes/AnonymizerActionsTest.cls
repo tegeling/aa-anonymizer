@@ -17,5 +17,4 @@ public class AnonymizerActionsTest {
         List<FeedItem> posts = [SELECT Id from FeedItem WHERE parentId=:klient.Id];
         System.assertEquals(posts.size(), 0);
    }
-
 }

@@ -9,5 +9,5 @@ public without sharing class AnonymizerActions {
             deletePosts.addAll(curPosts);
         }
         delete deletePosts;
-    }    
+    }
 }
